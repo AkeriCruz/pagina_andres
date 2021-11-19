@@ -1,0 +1,133 @@
+body {
+  font-family: 'Chivo', sans-serif;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color:#B12028
+}
+/*Barra de Navegación*/
+.navbarstyle {
+  background-color: #B12028;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.navbarcontainer {
+  padding-left:2%;
+}
+.logcompletomd{
+  height:40px;
+  width: auto;
+}
+/*Header*/
+.header-container {
+  margin: 0;
+  padding: 2.5% 3% 3%;
+  background-image: url(JPG/cafetos2.jpg);
+  background-size: cover;
+}
+.logo_cuadrado_blanco{
+  height: 150px; width: auto;
+}
+
+/*sección 1*/
+.section1 {
+  background-color: #B12028;
+  padding: 11%;
+}
+
+.imagen_interna_seccion1 {
+  width: 100%;
+  height: auto;
+}
+.oropendola_encabezado {
+  height: 40px;
+  margin-bottom: 10px;
+}
+.interntal_text_section1 {
+  padding-right: 60px;
+}
+.internalsection1 {
+  background-color: #FCFCFC;
+  text-align: center;
+  padding: 2%;
+  border-radius: 5px;
+}
+
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+@media only screen and (max-width: 1190px) {
+.internalsection1{
+    padding: 50px;
+    margin: 0;
+}
+.interntal_text_section1 {
+margin: 30px 0 0;
+padding: 0;
+width: 100%;
+height: auto;}
+}
+/*sección 2*/
+.section2{
+  background-color: #E6E6E6;
+  padding: 10%;
+
+}
+.card-header{
+  padding: 0;
+  border-width: 0;
+}
+.headtext2{
+  text-align: center;
+  padding-top: 5%;
+  padding-bottom: 0;
+  background-color: #B12028;
+  color: #E6E6E6;
+}
+.maintext2{
+  text-align: justify;
+  background-color: #B12028;
+  color: #E6E6E6;
+}
+.textocartacafe{
+  color: #0D4463;
+
+}
+/*sección 3*/
+.section3{
+  background-color: #0D4463;
+padding:11%;
+
+}
+.internalsection3{
+background-color:#E6E6E6;
+
+
+
+}
+/*footer*/
+#footer{
+background-image: url(JPG/fondo_footer.jpg);
+background-size: cover;
+padding: 3% 5%;
+}
+.logo_blanco_footer{
+  width: 100px;
+}
+.icons{
+font-size: 30px;
+margin-right: 10px;
+color:#E6E6E6;
+}
+.footer_list {
+  text-align: right;
+  color:#E6E6E6;
+  list-style-type: none;
+}
+.list_item4{
+  margin-bottom: 7px;
+}
