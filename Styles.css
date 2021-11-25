@@ -35,7 +35,8 @@ a:hover{
 /*sección 1*/
 .section1 {
   background-color: #B12028;
-  padding: 11%;
+  padding-top: 11%;
+  padding-bottom: 11%;
 }
 
 .imagen_interna_seccion1 {
@@ -46,13 +47,9 @@ a:hover{
   height: 40px;
   margin-bottom: 10px;
 }
-.interntal_text_section1 {
-  padding-right: 60px;
-}
 .internalsection1 {
   background-color: #FCFCFC;
   text-align: center;
-  padding: 2%;
   border-radius: 5px;
 }
 
@@ -60,22 +57,20 @@ a:hover{
   margin: 0;
   padding: 0;
 }
-@media only screen and (max-width: 1190px) {
-.internalsection1{
-    padding: 50px;
-    margin: 0;
-}
 .interntal_text_section1 {
 margin: 30px 0 0;
 padding: 0;
 width: 100%;
 height: auto;}
-}
+
 /*sección 2*/
 .section2{
   background-color: #E6E6E6;
-  padding: 10%;
-
+padding-top: 11%;
+padding-bottom: 11%;
+}
+.innersection2{
+  width: 85%;
 }
 .card-header{
   padding: 0;
@@ -105,10 +100,20 @@ padding:11%;
 }
 .internalsection3{
 background-color:#E6E6E6;
-
-
+padding: 2% 5% 5%;
+border-radius: 5px
+}
+.imagen_interna_seccion3{
+  width: 100%;
+  border-radius: 10px;
+  border: 10px solid #FCFCFC;
 
 }
+.correoelectronico{
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /*footer*/
 #footer{
 background-image: url(JPG/fondo_footer.jpg);
